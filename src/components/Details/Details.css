@@ -1,0 +1,45 @@
+.details--box {
+    position: relative;
+    left: -10%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 450px;
+    max-width: 900px;
+    max-height: 700px;
+}
+.day--details {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+}
+.day {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    min-width: 70px;  
+}
+.lectures {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    text-align: center;
+}
+.lecture {
+    justify-self: flex-end;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    width: 78px;   
+    height: auto;
+    margin-right: 10px;
+
+}

@@ -1,0 +1,77 @@
+.main {
+    margin-top: 50px;
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title--schedule {
+    color: black;
+    font-weight: 800;
+    font-size: 2.4em;
+    margin: 10px 0px 0px 0px;
+}
+.description {
+    margin: 5px;
+    font-size: 1em;
+    font-weight: 100;
+}
+.date {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+  
+  .send--btn{
+    /* display: flex; */
+    margin-top: 17px;
+    min-width: 170px;
+    /* width: auto; */
+    min-height: 40px;
+    max-height: 50px;
+    max-width: 270px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .send--btn span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .send--btn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    transition: all .35s;
+  }
+  
+  .send--btn:hover{
+    color: #fff;
+  }
+  
+  .send--btn:hover:after{
+    width: 100%;
+  }
+
+  
+.main[data-theme="dark"] > .title--schedule{
+    color: antiquewhite;
+  }
+
